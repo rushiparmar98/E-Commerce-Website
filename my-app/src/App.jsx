@@ -1,14 +1,11 @@
-
-import './App.css'
-
-function App() {
-  
-
+const App = () => {
   return (
     <>
-    <h1>Goddess Hiral</h1>
+      <div>
+        <h1>Goddess Hiral</h1>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
