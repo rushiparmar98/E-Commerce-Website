@@ -6,7 +6,8 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <h1>Goddess Hiral</h1>
+      <div className="bg-blue-500 text-white p-4 rounded-lg">Goddess Hiral</div>
+
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
